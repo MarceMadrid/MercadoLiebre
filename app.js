@@ -5,7 +5,7 @@ const path = require("path");
 
 app.use(express.static('public'));
 
-apapp.listen(procces.env.PORT || 3000, () => {
+apapp.listen(process.env.PORT || 3000, () => {
     console.log("Servidor corriendo en el puerto 3000")
 });
 
