@@ -1,0 +1,371 @@
+body{
+font-family: 'Roboto', sans-serif;
+padding:0;
+margin:0;
+
+}
+
+header{
+    background-color:#EAC926;
+    padding:0;
+    margin:0;
+}
+
+.logo img{
+ width: 200px; 
+ margin-top: 30px;
+ margin-left: 30px;
+  
+}
+
+.searchBar{
+    width: 200px;
+    height: 30px;
+    font-size: 13px;
+    margin-top:20px
+}
+
+
+
+nav li{
+text-align: left;
+}
+
+li a{
+    color:black;
+    text-decoration: none;  
+}
+
+ul {
+    padding-left: 0;
+}
+
+.navContainer {
+    font-size: 16px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navContainer li{
+    margin:5px;
+}
+
+.ofertas{
+    display:flex;
+}
+
+.cuenta{
+    display:flex;
+}
+
+.buttonBusqueda{
+    position:relative;
+    top: 1px;
+    right: 19px;
+    width: 20px;
+    height:30px;
+    font-size: 16px; 
+    padding: 0;
+    border:0px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 35px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+footer p {
+    font-size: 16px;
+    color: #666;
+}
+
+.copy {
+    font-size: 16px;
+    color:#666;
+}
+
+.pago i, .envio i, .seguridad i {
+    color:#1259c3;;
+    font-size: 60px;
+}
+
+.copy h2{
+    font-size: 16px;
+    text-align: left;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    background-color: #ebebeb;
+    padding:10px;
+}
+
+.cart{
+    margin-bottom: 1rem;
+    padding: 0;
+    width: 30rem;
+    background-color: white;
+    max-width: 70%;
+    margin:auto;
+    border-bottom:solid #ebebeb 10px;
+}
+
+.cart img{
+    width: 70%;
+    padding:20px
+}
+
+.contenedorPrice{
+    position:relative;
+    display:flex;
+    width: 80%;
+    padding:20px;
+    border-top:1px solid #ebebeb;
+}
+
+.fa-truck{
+    display:flex;
+    align-self:flex-end;
+    border: 0.1rem solid #39b54a;
+    border-radius:30px;
+    padding:0.5rem;
+    font-size: 12px;
+    color:#39b54a;
+    position:absolute;
+    right:5px;
+    bottom:45px;
+}
+
+.cart :hover .fa-truck{
+    transform:rotate(-90deg);
+}
+
+.cart:hover{
+    box-shadow:0 0 10px rgb(100, 100, 100);
+}
+
+
+
+.descuento{
+    color:#39b54a;
+}
+
+.cart h4{
+    color:#666;
+    font-weight: normal;
+}
+
+h2{
+    color: #666;
+}
+
+.cart p {
+    margin:0;
+}
+
+.banner{
+    width: 100%;
+}
+
+.precio{
+flex-grow: 0.3;
+font-size: 18px;
+}
+
+.descuento{
+flex-grow: 0.7;
+font-size: 16px;
+}
+
+.contResena{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.contOffers{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.cart{
+    width:15%;
+}
+
+.burger-menu{
+    display:none;
+}
+
+input{
+    border:0;
+    border-radius: 5px;
+    margin:auto;
+    height: 20px;
+    width: 350px;
+    margin:0px;
+    font-size: 16px;
+    padding:8px;
+}
+
+.checkbox{
+    width: 40px;
+}
+
+.titulo{
+    font-size: 18px;
+}
+
+.contenedorOpciones{
+    display:flex;
+}
+
+form{
+    width: 300px;
+    margin:auto;
+}
+
+.descripcionProducto{
+    display:none;
+    transition: width 1s;
+    margin-left: 10px;
+}
+
+.cart:hover .descripcionProducto{
+    display:block;
+}
+
+.botonesFormulario button{
+    width: 360px;
+    height: 35px;
+    margin-bottom: 20px;
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(150, 150, 150);
+}
+
+.submit:hover {
+    background-color: #0022AA;
+    color:white;
+}
+
+.reset:hover {
+    background-color: #0022AA;
+    color:white;
+}
+
+.botonesFormulario:hover .ingresar{
+    background-color: #0022AA;
+    color:white;
+}
+
+.botonesFormulario button{
+    border:0;
+    font-size: 16px;
+    padding:10px;
+}
+
+.formularioAcceso{
+    margin-bottom: 50px;
+}
+
+
+footer{
+  display:flex;
+}
+
+.footer{
+    margin-top:40px;
+}
+
+.footer i{
+    font-size: 50px;
+}
+
+.logo{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.logo p{
+    font-size: 20px;
+}
+
+.copy{
+    margin-top: 50px;
+}
+@media(max-width: 769px){
+      .contResena{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .cart{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 35%;
+    }
+    .burger-menu{
+        display:none;
+    }
+
+    .logo{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .navContainer{
+        display:none;
+    }
+    
+    .burger-menu{
+        display:block;
+    }
+
+    .compraEnCuotas{
+        font-size: 18px;
+        display:block;
+        margin:auto;
+    }
+ 
+    
+}
+
+@media(max-width: 361px){
+.cart h4{
+    display: none;
+}
+.cart{
+    width:70%;
+}
+.navContainer{
+    display:none;
+}
+
+.burger-menu{
+    display:block;
+}
+}
+
+
+
+
